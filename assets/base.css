@@ -1538,3 +1538,17 @@ html.rv-lock{overflow:hidden}
 .cine__note{margin:18px 0 0;font:500 13px/1.5 var(--font-body);letter-spacing:.04em;opacity:.85;max-width:62ch}
 .lead-bar .buy-bar__a{font-size:13px}
 #ContactForm{scroll-margin-top:110px}
+
+/* ==== mobile fail-safe (blank-page fix) ====
+   html.rv-safe is set when JS errors out, theme.js never runs, or a reveal leaves visible text at 0 opacity.
+   It switches every entrance/scroll animation off and shows the content as designed at rest. */
+html.rv-safe .reveal,html.rv-safe .rv-wait{animation:none!important;opacity:1!important;translate:none!important;transition:none!important}
+html.rv-safe .cine__line,html.rv-safe .cine__lede,html.rv-safe .cine__ctas,html.rv-safe .cine__foot,
+html.rv-safe .hero__panel,html.rv-safe .hero__plate,html.rv-safe .hero__spoon,html.rv-safe .hero__caption,
+html.rv-safe .hero__img,html.rv-safe .display,html.rv-safe .feature__media,html.rv-safe .feature__media img,
+html.rv-safe .footer__mark span{animation:none!important;opacity:1!important}
+html.rv-safe .feature__media{clip-path:none!important}
+html.rv-safe .w__i{animation:none!important;transform:none!important;opacity:1!important}
+html.rv-safe .size__meter span{transform:scaleX(var(--v,.5))!important}
+/* browsers without native <dialog> (iOS < 15.4) must not render the closed video player inline */
+dialog.rv-modal:not([open]){display:none}

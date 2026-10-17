@@ -28,6 +28,25 @@
     wait.forEach(function(el){el.classList.add('rv-wait')});
     els.forEach(function(el){io.observe(el)});
   } else els.forEach(function(el){el.classList.add('is-in')});
+  /* fail-safe: content must never stay invisible. If a reveal (JS or CSS scroll-driven) leaves text in view
+     at ~0 opacity after the page settles, switch to .rv-safe: every animation off, everything shown. */
+  var root=d.documentElement;
+  var safe=function(){if(root.classList.contains('rv-safe'))return;root.classList.add('rv-safe');
+    d.querySelectorAll('.reveal,.is-split,[data-split]').forEach(function(el){el.classList.add('is-in')})};
+  w.__rvSafe=safe;
+  var effOp=function(el){var o=1;while(el&&el.nodeType===1&&o>0){var cs=w.getComputedStyle(el);o*=parseFloat(cs.opacity)||0;if(cs.visibility==='hidden')o=0;el=el.parentElement}return o};
+  var audit=function(){if(root.classList.contains('rv-safe')||!d.elementFromPoint)return;
+    var W=w.innerWidth,H=w.innerHeight,bad=0,seen=0;
+    [[.5,.3],[.3,.5],[.5,.5],[.7,.5],[.5,.7]].forEach(function(p){var el=d.elementFromPoint(W*p[0],H*p[1]);
+      if(!el||el===d.body||el===root)return;
+      var tx=(el.innerText||el.textContent||'').trim();if(!tx&&el.tagName!=='IMG')return;seen++;
+      if(effOp(el)<.05)bad++});
+    if(seen&&bad*2>=seen)safe()};
+  var at=0,arm=function(){clearTimeout(at);at=setTimeout(audit,1600)};
+  if(d.readyState==='complete')arm();else w.addEventListener('load',arm,{once:true});
+  setTimeout(audit,4000);
+  w.addEventListener('scroll',arm,{passive:true});
+  root.classList.add('motion-ok');
   d.querySelectorAll('[data-filters]').forEach(function(bar){
     var grid=d.getElementById(bar.getAttribute('data-filters'));
     bar.addEventListener('click',function(ev){
@@ -339,7 +358,7 @@
 
     /* ---------- previews ---------- */
     var vidOf=function(c){return c.querySelector('.rv-card__preview')};
-    var attach=function(c){var v=vidOf(c);if(v&&!v.src&&v.dataset.src){v.src=v.dataset.src}};
+    var attach=function(c){var v=vidOf(c);if(v&&!v.src&&v.dataset.src){v.muted=true;v.defaultMuted=true;v.playsInline=true;v.setAttribute('playsinline','');v.src=v.dataset.src}};
     var play=function(c){var v=vidOf(c);if(!v)return;attach(c);
       if(!v._b){v._b=1;v.addEventListener('playing',function(){c.classList.add('is-playing')});v.addEventListener('pause',function(){c.classList.remove('is-playing')})}
       if(v.paused){var p=v.play();if(p&&p.catch)p.catch(function(){})}};
