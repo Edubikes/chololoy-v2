@@ -447,7 +447,7 @@
     var b=f.querySelector('[data-recipe-video-play]');if(!b)return;
     b.addEventListener('click',function(e){e.preventDefault();
       var v=d.createElement('video');v.controls=true;v.playsInline=true;v.setAttribute('playsinline','');v.preload='auto';
-      v.src=f.getAttribute('data-src');var po=f.querySelector('img');if(po)v.poster=po.currentSrc||po.src;
+      v.src=f.getAttribute('data-src');var vt=f.getAttribute('data-vtt');if(vt){var tk=d.createElement('track');tk.kind='subtitles';tk.src=vt;tk.srclang=f.getAttribute('data-vtt-lang')||'en';tk.label=f.getAttribute('data-vtt-label')||'English';if(f.hasAttribute('data-vtt-default'))tk.default=true;v.appendChild(tk)}var po=f.querySelector('img');if(po)v.poster=po.currentSrc||po.src;
       f.appendChild(v);f.classList.add('is-live');b.remove();var p=v.play();if(p&&p.catch)p.catch(function(){});v.focus({preventScroll:true});
     });
   });

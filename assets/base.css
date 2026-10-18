@@ -1552,3 +1552,19 @@ html.rv-safe .w__i{animation:none!important;transform:none!important;opacity:1!i
 html.rv-safe .size__meter span{transform:scaleX(var(--v,.5))!important}
 /* browsers without native <dialog> (iOS < 15.4) must not render the closed video player inline */
 dialog.rv-modal:not([open]){display:none}
+/* language switch (flags) */
+.lang-sw{display:inline-flex;align-items:center;gap:10px;margin-left:4px}
+.nav .lang-sw a{position:relative;display:inline-block;width:30px;height:20px;padding:0;border:0;font-size:0;line-height:0;border-radius:3px;box-shadow:0 0 0 1px rgba(26,18,14,.28);opacity:.62;transition:opacity .2s,box-shadow .2s}
+.nav .lang-sw a::before{content:"";position:absolute;inset:-12px -5px}
+.nav .lang-sw a::after{display:none}
+.nav .lang-sw a svg{display:block;width:100%;height:100%;border-radius:3px}
+.nav .lang-sw a:hover,.nav .lang-sw a:focus-visible{opacity:1}
+.nav .lang-sw a[aria-current="true"]{opacity:1;box-shadow:0 0 0 2px var(--gold),0 0 0 3px rgba(26,18,14,.35)}
+.site-header:not(.is-stuck) .nav .lang-sw a{box-shadow:0 0 0 1px rgba(255,248,238,.55)}
+.site-header:not(.is-stuck) .nav .lang-sw a[aria-current="true"]{box-shadow:0 0 0 2px var(--gold)}
+@media (max-width:900px){
+  .nav .lang-sw{gap:18px;padding:20px 0 2px;margin-left:0}
+  .nav .lang-sw a{width:42px;height:28px}
+  .site-header:not(.is-stuck) .nav .lang-sw a{box-shadow:0 0 0 1px rgba(26,18,14,.28)}
+  .site-header:not(.is-stuck) .nav .lang-sw a[aria-current="true"]{box-shadow:0 0 0 2px var(--gold),0 0 0 3px rgba(26,18,14,.35)}
+}
