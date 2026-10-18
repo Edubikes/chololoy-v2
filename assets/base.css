@@ -1568,3 +1568,5 @@ dialog.rv-modal:not([open]){display:none}
   .site-header:not(.is-stuck) .nav .lang-sw a{box-shadow:0 0 0 1px rgba(26,18,14,.28)}
   .site-header:not(.is-stuck) .nav .lang-sw a[aria-current="true"]{box-shadow:0 0 0 2px var(--gold),0 0 0 3px rgba(26,18,14,.35)}
 }
+
+.footer__credit{margin:14px 0 0;font-size:12px;line-height:1.5;color:rgba(255,248,238,.45)}.footer__credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}.footer__credit a:hover{color:rgba(255,248,238,.8)}
