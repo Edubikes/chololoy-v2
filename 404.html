@@ -1,2 +1,21 @@
 <!DOCTYPE html>
-<meta charset="utf-8"/><title>Chololoy®</title><meta content="noindex" name="robots"/><script>var es=/^\/chololoy-v2\/es(\/|$)/.test(location.pathname);try{var s=localStorage.getItem('chololoy-lang');if(s==='es')es=true;else if(s==='en')es=false}catch(e){}location.replace(es?"/chololoy-v2/es/":"/chololoy-v2/")</script><a href="/chololoy-v2/">Chololoy®</a>
+<meta charset="utf-8"/>
+<title>Chololoy®</title>
+<meta content="noindex" name="robots"/>
+<a id="home" href="/">Chololoy®</a>
+<script>
+(function(){
+  var path=location.pathname;
+  var base=(path==="/chololoy-v2"||path.indexOf("/chololoy-v2/")===0)?"/chololoy-v2":"";
+  var es=new RegExp("^"+base+"/es(/|$)").test(path);
+  try{
+    var s=localStorage.getItem("chololoy-lang");
+    if(s==="es")es=true;
+    else if(s==="en")es=false;
+  }catch(e){}
+  var dest=(es?base+"/es/":base+"/")||"/";
+  var a=document.getElementById("home");
+  if(a)a.setAttribute("href",dest);
+  location.replace(dest);
+})();
+</script>
