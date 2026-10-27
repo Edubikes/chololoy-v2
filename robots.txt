@@ -1,2 +1,6 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /404.html
+Disallow: /es/404.html
+
+Sitemap: https://chololoy.com/sitemap.xml
