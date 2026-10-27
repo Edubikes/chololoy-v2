@@ -233,7 +233,7 @@
   line-height: 1.05;
   letter-spacing: -0.025em;
   color: var(--h-ink);
-  max-width: 16ch;
+  max-width: 22ch;
   font-variation-settings: "opsz" 96;
 }
 #shopify-section-hero .hero__line { display: block; }
