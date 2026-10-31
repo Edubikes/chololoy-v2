@@ -1,0 +1,2939 @@
+# Pages CMS (https://pagescms.org) – editor visual gratis para Chololoy v2
+media:
+  input: assets/uploads
+  output: assets/uploads
+content:
+  - name: home-en
+    label: "Home – English"
+    type: file
+    path: _cms/content/home-en.json
+    format: json
+    fields:
+      - name: "head"
+        label: "Head"
+        type: object
+        fields:
+          - name: head__text1
+            label: "Chololoy® Original Seasoning – 100% Natural Mexica…"
+            type: string
+          - name: head__text2
+            label: "Skip to content"
+            type: string
+          - name: head__text3
+            label: "Family recipe since 1990"
+            type: string
+          - name: head__text4
+            label: "· Hablamos español"
+            type: string
+      - name: "site-header"
+        label: "Site Header"
+        type: object
+        fields:
+          - name: site_header__img1
+            label: "Foto: assets/logo-banner-700.webp"
+            type: image
+          - name: site_header__text2
+            label: "Chololoy"
+            type: string
+          - name: site_header__text3
+            label: "Recipes"
+            type: string
+          - name: site_header__text4
+            label: "Our story"
+            type: string
+          - name: site_header__text5
+            label: "For chefs & buyers"
+            type: string
+          - name: site_header__text6
+            label: "Contact"
+            type: string
+          - name: site_header__text7
+            label: "Request samples"
+            type: string
+          - name: site_header__text8
+            label: "Menu"
+            type: string
+      - name: "hero"
+        label: "Hero"
+        type: object
+        fields:
+          - name: hero__img1
+            label: "Foto: assets/hero/logo-chef.png"
+            type: image
+          - name: hero__img2
+            label: "Foto: assets/hero/logo-ribbon-chololoy-cut.png"
+            type: image
+          - name: hero__text3
+            label: "Chololoy®"
+            type: string
+          - name: hero__text4
+            label: "Chololoy® Tortilla Soup Base · Since 1990"
+            type: string
+          - name: hero__text5
+            label: "Authentic tortilla soup,"
+            type: string
+          - name: hero__text6
+            label: "ready in minutes."
+            type: string
+          - name: hero__text7
+            label: "One tablespoon of Chololoy® in a cup of hot water …"
+            type: text
+          - name: hero__img8
+            label: "Foto: assets/hero/condiments/chile.png"
+            type: image
+          - name: hero__text9
+            label: "Chile"
+            type: string
+          - name: hero__img10
+            label: "Foto: assets/hero/condiments/ajo.png"
+            type: image
+          - name: hero__text11
+            label: "Garlic"
+            type: string
+          - name: hero__img12
+            label: "Foto: assets/hero/condiments/comino.png"
+            type: image
+          - name: hero__text13
+            label: "Cumin"
+            type: string
+          - name: hero__img14
+            label: "Foto: assets/hero/condiments/limon.png"
+            type: image
+          - name: hero__text15
+            label: "Citrus"
+            type: string
+          - name: hero__img16
+            label: "Foto: assets/hero/condiments/cilantro.png"
+            type: image
+          - name: hero__text17
+            label: "Herbs"
+            type: string
+          - name: hero__img18
+            label: "Foto: assets/hero/condiments/cuchara.png"
+            type: image
+          - name: hero__text19
+            label: "1 Tbsp"
+            type: string
+          - name: hero__text20
+            label: "Request samples →"
+            type: string
+          - name: hero__text21
+            label: "See how it’s made →"
+            type: string
+          - name: hero__text22
+            label: "Cases of 12 × 1 lb · 5-case minimum · Hablamos esp…"
+            type: string
+          - name: hero__img23
+            label: "Foto: assets/hero/hero-collage-desktop.webp"
+            type: image
+          - name: hero__text24
+            label: "Chololoy® recipe collage: tortilla soup at center,…"
+            type: text
+          - name: hero__text25
+            label: "Since"
+            type: string
+          - name: hero__text26
+            label: "1990"
+            type: string
+      - name: "Chololoy\u00ae at a glance"
+        label: "Chololoy\u00ae At A Glance"
+        type: object
+        fields:
+          - name: chololoy_at_a_glance__text1
+            label: "100% natural"
+            type: string
+          - name: chololoy_at_a_glance__text2
+            label: "Since 1990"
+            type: string
+          - name: chololoy_at_a_glance__text3
+            label: "Tortilla soup"
+            type: string
+          - name: chololoy_at_a_glance__text4
+            label: "Rice"
+            type: string
+          - name: chololoy_at_a_glance__text5
+            label: "Seafood"
+            type: string
+          - name: chololoy_at_a_glance__text6
+            label: "Pasta"
+            type: string
+          - name: chololoy_at_a_glance__text7
+            label: "Meats"
+            type: string
+          - name: chololoy_at_a_glance__text8
+            label: "Dips"
+            type: string
+          - name: chololoy_at_a_glance__text9
+            label: "No preservatives"
+            type: string
+          - name: chololoy_at_a_glance__text10
+            label: "Cases of 12 × 1 lb"
+            type: string
+          - name: chololoy_at_a_glance__text11
+            label: "100% natural"
+            type: string
+          - name: chololoy_at_a_glance__text12
+            label: "Since 1990"
+            type: string
+          - name: chololoy_at_a_glance__text13
+            label: "Tortilla soup"
+            type: string
+          - name: chololoy_at_a_glance__text14
+            label: "Rice"
+            type: string
+          - name: chololoy_at_a_glance__text15
+            label: "Seafood"
+            type: string
+          - name: chololoy_at_a_glance__text16
+            label: "Pasta"
+            type: string
+          - name: chololoy_at_a_glance__text17
+            label: "Meats"
+            type: string
+          - name: chololoy_at_a_glance__text18
+            label: "Dips"
+            type: string
+          - name: chololoy_at_a_glance__text19
+            label: "No preservatives"
+            type: string
+          - name: chololoy_at_a_glance__text20
+            label: "Cases of 12 × 1 lb"
+            type: string
+      - name: "tortilla-soup"
+        label: "Tortilla Soup"
+        type: object
+        fields:
+          - name: tortilla_soup__img1
+            label: "Foto: assets/tortilla-hero-1200.webp"
+            type: image
+          - name: tortilla_soup__text2
+            label: "A bowl of tortilla soup made with Chololoy®: chick…"
+            type: text
+          - name: tortilla_soup__text3
+            label: "01 — Signature product"
+            type: string
+          - name: tortilla_soup__text4
+            label: "Victor’s Tortilla Soup."
+            type: string
+          - name: tortilla_soup__text5
+            label: "The one restaurants serve."
+            type: string
+          - name: tortilla_soup__text6
+            label: "Chololoy® started as one dish: the tortilla soup f…"
+            type: text
+          - name: tortilla_soup__text7
+            label: "Make the broth"
+            type: string
+          - name: tortilla_soup__text8
+            label: "Stir 1 tablespoon of Chololoy® into 1 cup of hot w…"
+            type: text
+          - name: tortilla_soup__text9
+            label: "Build the bowl"
+            type: string
+          - name: tortilla_soup__text10
+            label: "Cubed chicken, avocado, crispy tortilla strips and…"
+            type: text
+          - name: tortilla_soup__text11
+            label: "Pour and serve"
+            type: string
+          - name: tortilla_soup__text12
+            label: "Pour the hot broth over the bowl right before serv…"
+            type: string
+          - name: tortilla_soup__text13
+            label: "Yield:"
+            type: string
+          - name: tortilla_soup__text14
+            label: "4 oz makes 1 gallon of broth. One pound makes 4 ga…"
+            type: text
+          - name: tortilla_soup__text15
+            label: "Request samples"
+            type: string
+          - name: tortilla_soup__text16
+            label: "Full recipe"
+            type: string
+      - name: "At a glance"
+        label: "At A Glance"
+        type: object
+        fields:
+          - name: at_a_glance__text1
+            label: "1990"
+            type: string
+          - name: at_a_glance__text2
+            label: "The year Victor began supplying U.S. restaurant ki…"
+            type: string
+          - name: at_a_glance__text3
+            label: "1"
+            type: string
+          - name: at_a_glance__text4
+            label: "tbsp"
+            type: string
+          - name: at_a_glance__text5
+            label: "per cup of hot water. Boil it and the broth is rea…"
+            type: string
+          - name: at_a_glance__text6
+            label: "14"
+            type: string
+          - name: at_a_glance__text7
+            label: "U.S. states with restaurants serving it."
+            type: string
+      - name: "family-story"
+        label: "Family Story"
+        type: object
+        fields:
+          - name: family_story__text1
+            label: "02 — The family"
+            type: string
+          - name: family_story__text2
+            label: "Meet the family"
+            type: string
+          - name: family_story__text3
+            label: "behind Chololoy®."
+            type: string
+          - name: family_story__text4
+            label: "1"
+            type: string
+          - name: family_story__text5
+            label: "/ 3"
+            type: string
+          - name: family_story__text6
+            label: "Swipe to follow the story."
+            type: string
+          - name: family_story__img7
+            label: "Foto: assets/logo-chef-640.webp"
+            type: image
+          - name: family_story__text8
+            label: "Chololoy® Original Seasoning"
+            type: string
+          - name: family_story__text9
+            label: "01"
+            type: string
+          - name: family_story__text10
+            label: "From Mama Mecho"
+            type: string
+          - name: family_story__text11
+            label: "A family recipe, written down by hand."
+            type: string
+          - name: family_story__text12
+            label: "Great-grandma Nemesia García, “Mama Mecho,” from T…"
+            type: text
+          - name: family_story__img13
+            label: "Foto: assets/victor-550.webp"
+            type: image
+          - name: family_story__text14
+            label: "Victor Hitchcock Medina"
+            type: string
+          - name: family_story__text15
+            label: "02"
+            type: string
+          - name: family_story__text16
+            label: "1990 · Seattle"
+            type: string
+          - name: family_story__text17
+            label: "Victor got restaurants hooked."
+            type: string
+          - name: family_story__text18
+            label: "Victor Hitchcock Medina turned Mama Mecho’s soup i…"
+            type: text
+          - name: family_story__img19
+            label: "Foto: assets/patrick-kristina-fair-1200.webp"
+            type: image
+          - name: family_story__text20
+            label: "Patrick Hitchcock with his sister Kristina at a pr…"
+            type: string
+          - name: family_story__text21
+            label: "03"
+            type: string
+          - name: family_story__text22
+            label: "The family today"
+            type: string
+          - name: family_story__text23
+            label: "Patrick and Kristina."
+            type: string
+          - name: family_story__text24
+            label: "Since Victor’s passing, his siblings, Patrick and …"
+            type: text
+          - name: family_story__text25
+            label: "Swipe back anytime, or read the full story."
+            type: string
+          - name: family_story__text26
+            label: "Read the full story"
+            type: string
+          - name: family_story__img27
+            label: "Foto: assets/spoon-455.webp"
+            type: image
+      - name: "recipe-videos"
+        label: "Recipe Videos"
+        type: object
+        fields:
+          - name: recipe_videos__text1
+            label: "03 — Watch & cook"
+            type: string
+          - name: recipe_videos__text2
+            label: "Beyond soup:"
+            type: string
+          - name: recipe_videos__text3
+            label: "new recipes on video."
+            type: string
+          - name: recipe_videos__text4
+            label: "Short recipe videos from the family kitchen, in En…"
+            type: text
+          - name: recipe_videos__text5
+            label: "01"
+            type: string
+          - name: recipe_videos__text6
+            label: "/ 10"
+            type: string
+          - name: recipe_videos__text7
+            label: "Video audio:"
+            type: string
+          - name: recipe_videos__text8
+            label: "English"
+            type: string
+          - name: recipe_videos__text9
+            label: "Español"
+            type: string
+          - name: recipe_videos__video10
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-bbq-ribs-e…"
+            type: string
+          - name: recipe_videos__text11
+            label: "BBQ Ribs Express"
+            type: string
+          - name: recipe_videos__text12
+            label: "2 tbsp Chololoy® · 50 min"
+            type: string
+          - name: recipe_videos__img13
+            label: "Foto: videos/chololoy-bbq-ribs-en-poster.webp"
+            type: image
+          - name: recipe_videos__video14
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-bbq-ribs-e…"
+            type: string
+          - name: recipe_videos__text15
+            label: "01"
+            type: string
+          - name: recipe_videos__text16
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text17
+            label: "1:16"
+            type: string
+          - name: recipe_videos__text18
+            label: "2 tbsp Chololoy® · 50 min"
+            type: string
+          - name: recipe_videos__text19
+            label: "BBQ Ribs Express"
+            type: string
+          - name: recipe_videos__text20
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__video21
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-homestyle-…"
+            type: string
+          - name: recipe_videos__text22
+            label: "Homestyle Burger"
+            type: string
+          - name: recipe_videos__text23
+            label: "2 tbsp Chololoy® · 20 min"
+            type: string
+          - name: recipe_videos__img24
+            label: "Foto: videos/chololoy-homestyle-burger-en-poster.webp"
+            type: image
+          - name: recipe_videos__video25
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-homestyle-…"
+            type: string
+          - name: recipe_videos__text26
+            label: "02"
+            type: string
+          - name: recipe_videos__text27
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text28
+            label: "1:32"
+            type: string
+          - name: recipe_videos__text29
+            label: "2 tbsp Chololoy® · 20 min"
+            type: string
+          - name: recipe_videos__text30
+            label: "Homestyle Burger"
+            type: string
+          - name: recipe_videos__text31
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__video32
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-shakshuka-…"
+            type: string
+          - name: recipe_videos__text33
+            label: "Shakshuka"
+            type: string
+          - name: recipe_videos__text34
+            label: "1 tbsp Chololoy® · 25 min"
+            type: string
+          - name: recipe_videos__img35
+            label: "Foto: videos/chololoy-shakshuka-en-poster.webp"
+            type: image
+          - name: recipe_videos__video36
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-shakshuka-…"
+            type: string
+          - name: recipe_videos__text37
+            label: "03"
+            type: string
+          - name: recipe_videos__text38
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text39
+            label: "1:10"
+            type: string
+          - name: recipe_videos__text40
+            label: "1 tbsp Chololoy® · 25 min"
+            type: string
+          - name: recipe_videos__text41
+            label: "Shakshuka"
+            type: string
+          - name: recipe_videos__text42
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__video43
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-meatballs-…"
+            type: string
+          - name: recipe_videos__text44
+            label: "Meatballs in Tomato Sauce"
+            type: string
+          - name: recipe_videos__text45
+            label: "1.5 tbsp Chololoy® · 35 min"
+            type: string
+          - name: recipe_videos__img46
+            label: "Foto: videos/chololoy-meatballs-marinara-en-poster.webp"
+            type: image
+          - name: recipe_videos__video47
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-meatballs-…"
+            type: string
+          - name: recipe_videos__text48
+            label: "04"
+            type: string
+          - name: recipe_videos__text49
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text50
+            label: "1:51"
+            type: string
+          - name: recipe_videos__text51
+            label: "1.5 tbsp Chololoy® · 35 min"
+            type: string
+          - name: recipe_videos__text52
+            label: "Meatballs in Tomato Sauce"
+            type: string
+          - name: recipe_videos__text53
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__video54
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-chili-con-…"
+            type: string
+          - name: recipe_videos__text55
+            label: "Chili con Carne"
+            type: string
+          - name: recipe_videos__text56
+            label: "2 tbsp Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__img57
+            label: "Foto: videos/chololoy-chili-con-carne-en-poster.webp"
+            type: image
+          - name: recipe_videos__video58
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-chili-con-…"
+            type: string
+          - name: recipe_videos__text59
+            label: "05"
+            type: string
+          - name: recipe_videos__text60
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text61
+            label: "1:54"
+            type: string
+          - name: recipe_videos__text62
+            label: "2 tbsp Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__text63
+            label: "Chili con Carne"
+            type: string
+          - name: recipe_videos__text64
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__video65
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-noodle-sou…"
+            type: string
+          - name: recipe_videos__text66
+            label: "Asian-Style Noodle Soup with Shrimp"
+            type: string
+          - name: recipe_videos__text67
+            label: "1 tbsp Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__img68
+            label: "Foto: videos/chololoy-noodle-soup-shrimp-en-poster.webp"
+            type: image
+          - name: recipe_videos__video69
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-noodle-sou…"
+            type: string
+          - name: recipe_videos__text70
+            label: "06"
+            type: string
+          - name: recipe_videos__text71
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text72
+            label: "1:24"
+            type: string
+          - name: recipe_videos__text73
+            label: "1 tbsp Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__text74
+            label: "Asian-Style Noodle Soup with Shrimp"
+            type: string
+          - name: recipe_videos__text75
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__video76
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-spanish-ga…"
+            type: string
+          - name: recipe_videos__text77
+            label: "Spanish Garlic Chicken"
+            type: string
+          - name: recipe_videos__text78
+            label: "1 tbsp Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__img79
+            label: "Foto: videos/chololoy-spanish-garlic-chicken-en-poster.w…"
+            type: image
+          - name: recipe_videos__video80
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-spanish-ga…"
+            type: string
+          - name: recipe_videos__text81
+            label: "07"
+            type: string
+          - name: recipe_videos__text82
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text83
+            label: "1:14"
+            type: string
+          - name: recipe_videos__text84
+            label: "1 tbsp Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__text85
+            label: "Spanish Garlic Chicken"
+            type: string
+          - name: recipe_videos__text86
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__video87
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-salmon-sal…"
+            type: string
+          - name: recipe_videos__text88
+            label: "Salmon Salad"
+            type: string
+          - name: recipe_videos__text89
+            label: "1 tbsp Chololoy® · 23 min"
+            type: string
+          - name: recipe_videos__img90
+            label: "Foto: videos/chololoy-salmon-salad-en-poster.webp"
+            type: image
+          - name: recipe_videos__video91
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-salmon-sal…"
+            type: string
+          - name: recipe_videos__text92
+            label: "08"
+            type: string
+          - name: recipe_videos__text93
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text94
+            label: "1:16"
+            type: string
+          - name: recipe_videos__text95
+            label: "1 tbsp Chololoy® · 23 min"
+            type: string
+          - name: recipe_videos__text96
+            label: "Salmon Salad"
+            type: string
+          - name: recipe_videos__text97
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__video98
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-spicy-pota…"
+            type: string
+          - name: recipe_videos__text99
+            label: "Spicy Potatoes"
+            type: string
+          - name: recipe_videos__text100
+            label: "2 tbsp Chololoy® · 25 min"
+            type: string
+          - name: recipe_videos__img101
+            label: "Foto: videos/chololoy-spicy-potatoes-en-poster.webp"
+            type: image
+          - name: recipe_videos__video102
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-spicy-pota…"
+            type: string
+          - name: recipe_videos__text103
+            label: "09"
+            type: string
+          - name: recipe_videos__text104
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text105
+            label: "0:59"
+            type: string
+          - name: recipe_videos__text106
+            label: "2 tbsp Chololoy® · 25 min"
+            type: string
+          - name: recipe_videos__text107
+            label: "Spicy Potatoes"
+            type: string
+          - name: recipe_videos__text108
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__video109
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-chickpea-h…"
+            type: string
+          - name: recipe_videos__text110
+            label: "Chickpea Hummus"
+            type: string
+          - name: recipe_videos__text111
+            label: "2 tbsp Chololoy® · 10 min"
+            type: string
+          - name: recipe_videos__img112
+            label: "Foto: videos/chololoy-chickpea-hummus-en-poster.webp"
+            type: image
+          - name: recipe_videos__video113
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-chickpea-h…"
+            type: string
+          - name: recipe_videos__text114
+            label: "10"
+            type: string
+          - name: recipe_videos__text115
+            label: "Run time"
+            type: string
+          - name: recipe_videos__text116
+            label: "0:46"
+            type: string
+          - name: recipe_videos__text117
+            label: "2 tbsp Chololoy® · 10 min"
+            type: string
+          - name: recipe_videos__text118
+            label: "Chickpea Hummus"
+            type: string
+          - name: recipe_videos__text119
+            label: "Get the recipe"
+            type: string
+          - name: recipe_videos__text120
+            label: "Swipe to see more"
+            type: string
+          - name: recipe_videos__text121
+            label: "Video audio:"
+            type: string
+          - name: recipe_videos__text122
+            label: "English"
+            type: string
+          - name: recipe_videos__text123
+            label: "Español"
+            type: string
+          - name: recipe_videos__text124
+            label: "Get the recipe"
+            type: string
+      - name: "featured-recipes"
+        label: "Featured Recipes"
+        type: object
+        fields:
+          - name: featured_recipes__text1
+            label: "04 — Featured recipes"
+            type: string
+          - name: featured_recipes__text2
+            label: "Start here."
+            type: string
+          - name: featured_recipes__text3
+            label: "Then make them your own."
+            type: string
+          - name: featured_recipes__text4
+            label: "Every card shows exactly how much Chololoy® to use…"
+            type: string
+          - name: featured_recipes__text5
+            label: "All recipes"
+            type: string
+          - name: featured_recipes__img6
+            label: "Foto: cdn/shop/articles/spicy-potatoes-hero__w1400.webp"
+            type: image
+          - name: featured_recipes__text7
+            label: "Chololoy Spicy Potatoes"
+            type: string
+          - name: featured_recipes__text8
+            label: "Chololoy® Spicy Potatoes"
+            type: string
+          - name: featured_recipes__img9
+            label: "Foto: cdn/shop/articles/spanish-garlic-chicken-hero__w14…"
+            type: image
+          - name: featured_recipes__text10
+            label: "Chololoy Spanish Garlic Chicken"
+            type: string
+          - name: featured_recipes__text11
+            label: "Chololoy® Spanish Garlic Chicken"
+            type: string
+          - name: featured_recipes__img12
+            label: "Foto: cdn/shop/articles/shakshuka-hero__w1400.webp"
+            type: image
+          - name: featured_recipes__text13
+            label: "Chololoy Shakshuka"
+            type: string
+          - name: featured_recipes__text14
+            label: "Chololoy® Shakshuka"
+            type: string
+      - name: "great-on"
+        label: "Great On"
+        type: object
+        fields:
+          - name: great_on__text1
+            label: "05 — Where it works"
+            type: string
+          - name: great_on__text2
+            label: "One spoonful."
+            type: string
+          - name: great_on__text3
+            label: "Every station on the line."
+            type: string
+          - name: great_on__text4
+            label: "Hover or tap a dish to see exactly how much Cholol…"
+            type: text
+          - name: great_on__text5
+            label: "All"
+            type: string
+          - name: great_on__text6
+            label: "Seafood"
+            type: string
+          - name: great_on__text7
+            label: "Meats"
+            type: string
+          - name: great_on__text8
+            label: "Dips"
+            type: string
+          - name: great_on__text9
+            label: "Soups"
+            type: string
+          - name: great_on__text10
+            label: "Rice"
+            type: string
+          - name: great_on__text11
+            label: "Pasta"
+            type: string
+          - name: great_on__img12
+            label: "Foto: assets/pair-michelada-shrimp-628.webp"
+            type: image
+          - name: great_on__text13
+            label: "Michelada shrimp"
+            type: string
+          - name: great_on__text14
+            label: "Seafood"
+            type: string
+          - name: great_on__text15
+            label: "Michelada shrimp"
+            type: string
+          - name: great_on__text16
+            label: "2 tbsp"
+            type: string
+          - name: great_on__text17
+            label: "Stirred into warm beer and poured over the shrimp."
+            type: string
+          - name: great_on__text18
+            label: "See recipe →"
+            type: string
+          - name: great_on__text19
+            label: "2 tbsp. Stirred into warm beer and poured over the…"
+            type: string
+          - name: great_on__img20
+            label: "Foto: assets/pair-meatballs-720.webp"
+            type: image
+          - name: great_on__text21
+            label: "Meatballs in tomato sauce"
+            type: string
+          - name: great_on__text22
+            label: "Meats"
+            type: string
+          - name: great_on__text23
+            label: "Meatballs in tomato sauce"
+            type: string
+          - name: great_on__text24
+            label: "1 tbsp"
+            type: string
+          - name: great_on__text25
+            label: "Mixed into the meatballs."
+            type: string
+          - name: great_on__text26
+            label: "See recipe →"
+            type: string
+          - name: great_on__text27
+            label: "1 tbsp. Mixed into the meatballs."
+            type: string
+          - name: great_on__img28
+            label: "Foto: assets/pair-salmon-salad-540.webp"
+            type: image
+          - name: great_on__text29
+            label: "Salmon salad"
+            type: string
+          - name: great_on__text30
+            label: "Seafood"
+            type: string
+          - name: great_on__text31
+            label: "Salmon salad"
+            type: string
+          - name: great_on__text32
+            label: "1 tbsp"
+            type: string
+          - name: great_on__text33
+            label: "Mixed into butter and rubbed on the fish."
+            type: string
+          - name: great_on__text34
+            label: "See recipe →"
+            type: string
+          - name: great_on__text35
+            label: "1 tbsp. Mixed into butter and rubbed on the fish."
+            type: string
+          - name: great_on__img36
+            label: "Foto: assets/pair-chololoy-dip-535.webp"
+            type: image
+          - name: great_on__text37
+            label: "Chololoy dip"
+            type: string
+          - name: great_on__text38
+            label: "Dips"
+            type: string
+          - name: great_on__text39
+            label: "Chololoy® dip"
+            type: string
+          - name: great_on__text40
+            label: "1½ tbsp"
+            type: string
+          - name: great_on__text41
+            label: "Just stir it in."
+            type: string
+          - name: great_on__text42
+            label: "See recipe →"
+            type: string
+          - name: great_on__text43
+            label: "1½ tbsp. Just stir it in."
+            type: string
+          - name: great_on__img44
+            label: "Foto: assets/pair-black-bean-soup-599.webp"
+            type: image
+          - name: great_on__text45
+            label: "Black bean soup"
+            type: string
+          - name: great_on__text46
+            label: "Soups"
+            type: string
+          - name: great_on__text47
+            label: "Black bean soup"
+            type: string
+          - name: great_on__text48
+            label: "1 tbsp"
+            type: string
+          - name: great_on__text49
+            label: "Blended with the beans and water."
+            type: string
+          - name: great_on__text50
+            label: "See recipe →"
+            type: string
+          - name: great_on__text51
+            label: "1 tbsp. Blended with the beans and water."
+            type: string
+          - name: great_on__img52
+            label: "Foto: assets/pair-pork-pan-415.webp"
+            type: image
+          - name: great_on__text53
+            label: "Pork in cream sauce"
+            type: string
+          - name: great_on__text54
+            label: "Meats"
+            type: string
+          - name: great_on__text55
+            label: "Pork in cream sauce"
+            type: string
+          - name: great_on__text56
+            label: "2 tsp"
+            type: string
+          - name: great_on__text57
+            label: "Stirred into warm sour cream."
+            type: string
+          - name: great_on__text58
+            label: "See recipe →"
+            type: string
+          - name: great_on__text59
+            label: "2 tsp. Stirred into warm sour cream."
+            type: string
+          - name: great_on__img60
+            label: "Foto: assets/pair-breaded-shrimp-rice-509.webp"
+            type: image
+          - name: great_on__text61
+            label: "Breaded shrimp & rice"
+            type: string
+          - name: great_on__text62
+            label: "Rice"
+            type: string
+          - name: great_on__text63
+            label: "Breaded shrimp & rice"
+            type: string
+          - name: great_on__text64
+            label: "2 tbsp"
+            type: string
+          - name: great_on__text65
+            label: "In the rice and on the shrimp, too."
+            type: string
+          - name: great_on__text66
+            label: "See recipe →"
+            type: string
+          - name: great_on__text67
+            label: "2 tbsp. In the rice and on the shrimp, too."
+            type: string
+          - name: great_on__img68
+            label: "Foto: assets/pair-mac-cheese-404.webp"
+            type: image
+          - name: great_on__text69
+            label: "Macaroni & cheese"
+            type: string
+          - name: great_on__text70
+            label: "Pasta"
+            type: string
+          - name: great_on__text71
+            label: "Macaroni & cheese"
+            type: string
+          - name: great_on__text72
+            label: "2 tbsp"
+            type: string
+          - name: great_on__text73
+            label: "Whisked into the cheese sauce."
+            type: string
+          - name: great_on__text74
+            label: "See recipe →"
+            type: string
+          - name: great_on__text75
+            label: "2 tbsp. Whisked into the cheese sauce."
+            type: string
+      - name: "why"
+        label: "Why"
+        type: object
+        fields:
+          - name: why__text1
+            label: "06 — Why chefs reorder"
+            type: string
+          - name: why__text2
+            label: "“Once people try it, they order it again.”"
+            type: string
+          - name: why__text3
+            label: "The Hitchcock family, Chololoy®"
+            type: string
+          - name: why__text4
+            label: "01"
+            type: string
+          - name: why__text5
+            label: "Easy to make"
+            type: string
+          - name: why__text6
+            label: "One tablespoon in a cup of hot water. Once it boil…"
+            type: text
+          - name: why__text7
+            label: "02"
+            type: string
+          - name: why__text8
+            label: "A little goes a long way. Zero waste."
+            type: string
+          - name: why__text9
+            label: "About 52 tablespoons per pound, so you use only wh…"
+            type: string
+          - name: why__text10
+            label: "03"
+            type: string
+          - name: why__text11
+            label: "Homemade flavor, 100% natural"
+            type: string
+          - name: why__text12
+            label: "Victor’s great-grandmother’s recipe. 100% natural …"
+            type: text
+      - name: "story"
+        label: "Story"
+        type: object
+        fields:
+          - name: story__img1
+            label: "Foto: assets/victor-550.webp"
+            type: image
+          - name: story__text2
+            label: "Victor Hitchcock Medina"
+            type: string
+          - name: story__text3
+            label: "Victor Hitchcock Medina"
+            type: string
+          - name: story__img4
+            label: "Foto: assets/patrick-kristina-fair-1200.webp"
+            type: image
+          - name: story__text5
+            label: "Patrick and Kristina today"
+            type: string
+          - name: story__text6
+            label: "Patrick and Kristina today"
+            type: string
+          - name: story__text7
+            label: "07 — The story"
+            type: string
+          - name: story__text8
+            label: "A recipe from"
+            type: string
+          - name: story__text9
+            label: "Mama Mecho’s cookbook."
+            type: string
+          - name: story__text10
+            label: "Victor’s great-grandma Nemesia García, “Mama Mecho…"
+            type: text
+          - name: story__text11
+            label: "Tlaxcala"
+            type: string
+          - name: story__text12
+            label: "Mama Mecho writes down her tortilla soup"
+            type: string
+          - name: story__text13
+            label: "1990"
+            type: string
+          - name: story__text14
+            label: "Victor brings it to the kitchens of Mexican restau…"
+            type: string
+          - name: story__text15
+            label: "Today his siblings, Patrick and Kristina, carry it…"
+            type: string
+          - name: story__text16
+            label: "Read the full story"
+            type: string
+      - name: "how-it-began"
+        label: "How It Began"
+        type: object
+        fields:
+          - name: how_it_began__img1
+            label: "Foto: assets/victor-story-poster-1100.webp"
+            type: image
+          - name: how_it_began__text2
+            label: "Victor in the kitchen,"
+            type: string
+          - name: how_it_began__img3
+            label: "Foto: assets/victor-story-poster-1100.webp"
+            type: image
+          - name: how_it_began__video4
+            label: "Video URL: https://chololoyinc.com/videos/victor-story-640.mp…"
+            type: string
+          - name: how_it_began__text5
+            label: "08 — How the story began"
+            type: string
+          - name: how_it_began__text6
+            label: "Victor in the kitchen,"
+            type: string
+          - name: how_it_began__text7
+            label: "making the soup."
+            type: string
+          - name: how_it_began__text8
+            label: "Watch Victor prepare the tortilla soup that starte…"
+            type: text
+      - name: "wholesale"
+        label: "Wholesale"
+        type: object
+        fields:
+          - name: wholesale__text1
+            label: "09 — For chefs & buyers"
+            type: string
+          - name: wholesale__text2
+            label: "Built for"
+            type: string
+          - name: wholesale__text3
+            label: "professional kitchens."
+            type: string
+          - name: wholesale__text4
+            label: "Sold by the case, direct from the producer. Custom…"
+            type: text
+          - name: wholesale__text5
+            label: "12 × 1 lb"
+            type: string
+          - name: wholesale__text6
+            label: "bags per case · heat-sealed aluminum"
+            type: string
+          - name: wholesale__text7
+            label: "5-case"
+            type: string
+          - name: wholesale__text8
+            label: "minimum order (60 lb)"
+            type: string
+          - name: wholesale__text9
+            label: "≈52"
+            type: string
+          - name: wholesale__text10
+            label: "tablespoons per pound"
+            type: string
+          - name: wholesale__text11
+            label: "1 tbsp : 1 cup"
+            type: string
+          - name: wholesale__text12
+            label: "1 tbsp per cup of water for tortilla soup"
+            type: string
+          - name: wholesale__text13
+            label: "1-year"
+            type: string
+          - name: wholesale__text14
+            label: "shelf life · 100% natural, no preservatives"
+            type: string
+          - name: wholesale__text15
+            label: "4–6"
+            type: string
+          - name: wholesale__text16
+            label: "weeks for delivery"
+            type: string
+          - name: wholesale__text17
+            label: "Request samples"
+            type: string
+          - name: wholesale__text18
+            label: "Talk to sales"
+            type: string
+      - name: "samples"
+        label: "Samples"
+        type: object
+        fields:
+          - name: samples__img1
+            label: "Foto: assets/logo-chef-640.webp"
+            type: image
+          - name: samples__text2
+            label: "For chefs & buyers"
+            type: string
+          - name: samples__text3
+            label: "Try it in"
+            type: string
+          - name: samples__text4
+            label: "your kitchen first."
+            type: string
+          - name: samples__text5
+            label: "Samples for restaurants, distributors and stores. …"
+            type: text
+          - name: samples__text6
+            label: "Tell Kristina about your kitchen"
+            type: string
+          - name: samples__text7
+            label: "Restaurant, distributor or store, and where you’re…"
+            type: string
+          - name: samples__text8
+            label: "Kristina replies to you herself"
+            type: string
+          - name: samples__text9
+            label: "She’ll arrange your samples and delivery. Hablamos…"
+            type: string
+          - name: samples__text10
+            label: "Start cooking"
+            type: string
+          - name: samples__text11
+            label: "Start with Victor’s Tortilla Soup: 1 tbsp in 1 cup…"
+            type: string
+          - name: samples__text12
+            label: "Request samples"
+            type: string
+          - name: samples__text13
+            label: "New recipes now and then."
+            type: string
+          - name: samples__text14
+            label: "Recipes from the family kitchen, plus Chololoy® ne…"
+            type: string
+          - name: samples__text15
+            label: "Your email"
+            type: string
+          - name: samples__text16
+            label: "Your email"
+            type: string
+          - name: samples__text17
+            label: "Subscribe"
+            type: string
+          - name: samples__text18
+            label: "Unsubscribe anytime."
+            type: string
+          - name: samples__text19
+            label: "By subscribing, you agree to our"
+            type: string
+          - name: samples__text20
+            label: "Privacy Policy"
+            type: string
+      - name: "faq"
+        label: "Faq"
+        type: object
+        fields:
+          - name: faq__text1
+            label: "FAQ"
+            type: string
+          - name: faq__text2
+            label: "Before you order"
+            type: string
+          - name: faq__text3
+            label: "Quick answers for chefs and buyers."
+            type: string
+          - name: faq__text4
+            label: "Ask Kristina"
+            type: string
+          - name: faq__text5
+            label: "01"
+            type: string
+          - name: faq__text6
+            label: "What comes in a case?"
+            type: string
+          - name: faq__text7
+            label: "Each case holds twelve 1-lb heat-sealed aluminum b…"
+            type: text
+          - name: faq__text8
+            label: "02"
+            type: string
+          - name: faq__text9
+            label: "How long does wholesale delivery take?"
+            type: string
+          - name: faq__text10
+            label: "Wholesale orders take 4 to 6 weeks to deliver."
+            type: string
+          - name: faq__text11
+            label: "03"
+            type: string
+          - name: faq__text12
+            label: "Can you make a custom blend?"
+            type: string
+          - name: faq__text13
+            label: "For large accounts, yes — from small adjustments, …"
+            type: text
+          - name: faq__text14
+            label: "04"
+            type: string
+          - name: faq__text15
+            label: "What is its shelf life?"
+            type: string
+          - name: faq__text16
+            label: "It keeps for one year. It’s 100% natural with no p…"
+            type: string
+          - name: faq__text17
+            label: "05"
+            type: string
+          - name: faq__text18
+            label: "Can I buy it for home use?"
+            type: string
+          - name: faq__text19
+            label: "Smaller sizes for home use are available on reques…"
+            type: text
+      - name: "section"
+        label: "Section"
+        type: object
+        fields:
+          - name: section__text1
+            label: "Chololoy®"
+            type: string
+          - name: section__text2
+            label: "Chololoy®"
+            type: string
+          - name: section__text3
+            label: "Chololoy®"
+            type: string
+          - name: section__text4
+            label: "Orders & questions"
+            type: string
+          - name: section__text5
+            label: "Taste it"
+            type: string
+          - name: section__text6
+            label: "in your kitchen."
+            type: string
+          - name: section__text7
+            label: "Samples, orders or a custom blend: Kristina answer…"
+            type: text
+          - name: section__link8
+            label: "Link: mailto:kristina@chololoy.net"
+            type: string
+          - name: section__text9
+            label: "kristina@chololoy.net"
+            type: string
+          - name: section__link10
+            label: "Link: tel:5037037720"
+            type: string
+          - name: section__text11
+            label: "(503) 703-7720"
+            type: string
+          - name: section__text12
+            label: "Request samples"
+            type: string
+      - name: "footer"
+        label: "Footer"
+        type: object
+        fields:
+          - name: footer__img1
+            label: "Foto: assets/logo-banner-700.webp"
+            type: image
+          - name: footer__text2
+            label: "Chololoy"
+            type: string
+          - name: footer__text3
+            label: "A family recipe from Tlaxcala, in restaurant kitch…"
+            type: text
+          - name: footer__text4
+            label: "Explore"
+            type: string
+          - name: footer__text5
+            label: "Recipes"
+            type: string
+          - name: footer__text6
+            label: "Privacy Policy"
+            type: string
+          - name: footer__text7
+            label: "Wholesale"
+            type: string
+          - name: footer__text8
+            label: "12 × 1 lb bags per case"
+            type: string
+          - name: footer__text9
+            label: "Minimum order: 5 cases"
+            type: string
+          - name: footer__text10
+            label: "4–6 weeks delivery"
+            type: string
+          - name: footer__text11
+            label: "Orders & questions"
+            type: string
+          - name: footer__text12
+            label: "Kristina Knutson"
+            type: string
+          - name: footer__text13
+            label: "kristina@chololoy.net"
+            type: string
+          - name: footer__text14
+            label: "(503) 703-7720"
+            type: string
+          - name: footer__text15
+            label: "· Hablamos español"
+            type: string
+          - name: footer__text16
+            label: "Send a message →"
+            type: string
+          - name: footer__text17
+            label: "Recipes by email"
+            type: string
+          - name: footer__text18
+            label: "New recipes and family news now and then."
+            type: string
+          - name: footer__text19
+            label: "Your email"
+            type: string
+          - name: footer__text20
+            label: "Your email"
+            type: string
+          - name: footer__text21
+            label: "By subscribing, you agree to our"
+            type: string
+          - name: footer__text22
+            label: "Privacy Policy"
+            type: string
+          - name: footer__text23
+            label: ". Unsubscribe anytime."
+            type: string
+          - name: footer__text24
+            label: "Chololoy®"
+            type: string
+          - name: footer__text25
+            label: "© 2026 Chololoy, Inc. · Family owned"
+            type: string
+          - name: footer__text26
+            label: "Chololoy® is made only with natural ingredients an…"
+            type: string
+          - name: footer__text27
+            label: "Privacy Policy"
+            type: string
+          - name: footer__text28
+            label: "Back to top ↑"
+            type: string
+          - name: footer__text29
+            label: "Music: “Carefree”, “Cool Vibes”, “Hep Cats”, “Suns…"
+            type: text
+          - name: footer__link30
+            label: "Link: https://incompetech.com"
+            type: string
+          - name: footer__text31
+            label: "incompetech.com"
+            type: string
+          - name: footer__text32
+            label: "), licensed under"
+            type: string
+          - name: footer__link33
+            label: "Link: https://creativecommons.org/licenses/by/4.0/"
+            type: string
+          - name: footer__text34
+            label: "CC BY 4.0"
+            type: string
+          - name: footer__text35
+            label: "Request samples"
+            type: string
+          - name: footer__link36
+            label: "Link: tel:+15037037720"
+            type: string
+          - name: footer__text37
+            label: "Call"
+            type: string
+  - name: home-es
+    label: "Inicio – Español"
+    type: file
+    path: _cms/content/home-es.json
+    format: json
+    fields:
+      - name: "head"
+        label: "Head"
+        type: object
+        fields:
+          - name: head__text1
+            label: "Sazonador Original Chololoy® – Sazonador mexicano …"
+            type: string
+          - name: head__text2
+            label: "Saltar al contenido"
+            type: string
+          - name: head__text3
+            label: "Receta familiar desde 1990"
+            type: string
+          - name: head__text4
+            label: "· Atendemos en español e inglés"
+            type: string
+      - name: "site-header"
+        label: "Site Header"
+        type: object
+        fields:
+          - name: site_header__img1
+            label: "Foto: ../assets/logo-banner-700.webp"
+            type: image
+          - name: site_header__text2
+            label: "Chololoy®"
+            type: string
+          - name: site_header__text3
+            label: "Recetas"
+            type: string
+          - name: site_header__text4
+            label: "Nuestra historia"
+            type: string
+          - name: site_header__text5
+            label: "Para chefs y compradores"
+            type: string
+          - name: site_header__text6
+            label: "Contacto"
+            type: string
+          - name: site_header__text7
+            label: "Solicita muestras"
+            type: string
+          - name: site_header__text8
+            label: "Menú"
+            type: string
+      - name: "hero"
+        label: "Hero"
+        type: object
+        fields:
+          - name: hero__img1
+            label: "Foto: ../assets/hero/logo-chef.png"
+            type: image
+          - name: hero__img2
+            label: "Foto: ../assets/hero/logo-ribbon-chololoy-cut.png"
+            type: image
+          - name: hero__text3
+            label: "Chololoy®"
+            type: string
+          - name: hero__text4
+            label: "Base para Sopa de Tortilla Chololoy® · Desde 1990"
+            type: string
+          - name: hero__text5
+            label: "Auténtica sopa de tortilla,"
+            type: string
+          - name: hero__text6
+            label: "lista en minutos."
+            type: string
+          - name: hero__text7
+            label: "Una cucharada de Chololoy® en una taza de agua cal…"
+            type: text
+          - name: hero__img8
+            label: "Foto: ../assets/hero/condiments/chile.png"
+            type: image
+          - name: hero__text9
+            label: "Chile"
+            type: string
+          - name: hero__img10
+            label: "Foto: ../assets/hero/condiments/ajo.png"
+            type: image
+          - name: hero__text11
+            label: "Ajo"
+            type: string
+          - name: hero__img12
+            label: "Foto: ../assets/hero/condiments/comino.png"
+            type: image
+          - name: hero__text13
+            label: "Comino"
+            type: string
+          - name: hero__img14
+            label: "Foto: ../assets/hero/condiments/limon.png"
+            type: image
+          - name: hero__text15
+            label: "Cítrico"
+            type: string
+          - name: hero__img16
+            label: "Foto: ../assets/hero/condiments/cilantro.png"
+            type: image
+          - name: hero__text17
+            label: "Hierbas"
+            type: string
+          - name: hero__img18
+            label: "Foto: ../assets/hero/condiments/cuchara.png"
+            type: image
+          - name: hero__text19
+            label: "1 cda."
+            type: string
+          - name: hero__text20
+            label: "Solicita muestras →"
+            type: string
+          - name: hero__text21
+            label: "Mira cómo se prepara →"
+            type: string
+          - name: hero__text22
+            label: "Cajas de 12 × 1 lb · Pedido mínimo de 5 cajas · At…"
+            type: string
+          - name: hero__img23
+            label: "Foto: ../assets/hero/hero-collage-desktop.webp"
+            type: image
+          - name: hero__text24
+            label: "Collage de recetas Chololoy®: sopa de tortilla al …"
+            type: text
+          - name: hero__text25
+            label: "Desde"
+            type: string
+          - name: hero__text26
+            label: "1990"
+            type: string
+      - name: "Chololoy\u00ae de un vistazo"
+        label: "Chololoy\u00ae De Un Vistazo"
+        type: object
+        fields:
+          - name: chololoy_de_un_vistazo__text1
+            label: "100% natural"
+            type: string
+          - name: chololoy_de_un_vistazo__text2
+            label: "Desde 1990"
+            type: string
+          - name: chololoy_de_un_vistazo__text3
+            label: "Sopa de tortilla"
+            type: string
+          - name: chololoy_de_un_vistazo__text4
+            label: "Arroz"
+            type: string
+          - name: chololoy_de_un_vistazo__text5
+            label: "Mariscos"
+            type: string
+          - name: chololoy_de_un_vistazo__text6
+            label: "Pasta"
+            type: string
+          - name: chololoy_de_un_vistazo__text7
+            label: "Carnes"
+            type: string
+          - name: chololoy_de_un_vistazo__text8
+            label: "Dips"
+            type: string
+          - name: chololoy_de_un_vistazo__text9
+            label: "Sin conservadores"
+            type: string
+          - name: chololoy_de_un_vistazo__text10
+            label: "Cajas de 12 × 1 lb"
+            type: string
+          - name: chololoy_de_un_vistazo__text11
+            label: "100% natural"
+            type: string
+          - name: chololoy_de_un_vistazo__text12
+            label: "Desde 1990"
+            type: string
+          - name: chololoy_de_un_vistazo__text13
+            label: "Sopa de tortilla"
+            type: string
+          - name: chololoy_de_un_vistazo__text14
+            label: "Arroz"
+            type: string
+          - name: chololoy_de_un_vistazo__text15
+            label: "Mariscos"
+            type: string
+          - name: chololoy_de_un_vistazo__text16
+            label: "Pasta"
+            type: string
+          - name: chololoy_de_un_vistazo__text17
+            label: "Carnes"
+            type: string
+          - name: chololoy_de_un_vistazo__text18
+            label: "Dips"
+            type: string
+          - name: chololoy_de_un_vistazo__text19
+            label: "Sin conservadores"
+            type: string
+          - name: chololoy_de_un_vistazo__text20
+            label: "Cajas de 12 × 1 lb"
+            type: string
+      - name: "tortilla-soup"
+        label: "Tortilla Soup"
+        type: object
+        fields:
+          - name: tortilla_soup__img1
+            label: "Foto: ../assets/tortilla-hero-1200.webp"
+            type: image
+          - name: tortilla_soup__text2
+            label: "Un plato de sopa de tortilla hecha con Chololoy®: …"
+            type: text
+          - name: tortilla_soup__text3
+            label: "01 — Producto estrella"
+            type: string
+          - name: tortilla_soup__text4
+            label: "Sopa de Tortilla de Víctor."
+            type: string
+          - name: tortilla_soup__text5
+            label: "La que sirven los restaurantes."
+            type: string
+          - name: tortilla_soup__text6
+            label: "Chololoy® nació de un solo platillo: la sopa de to…"
+            type: text
+          - name: tortilla_soup__text7
+            label: "Prepara el caldo"
+            type: string
+          - name: tortilla_soup__text8
+            label: "Disuelve 1 cucharada de Chololoy® en 1 taza de agu…"
+            type: text
+          - name: tortilla_soup__text9
+            label: "Arma el plato"
+            type: string
+          - name: tortilla_soup__text10
+            label: "Pollo en cubos, aguacate, tiras de tortilla crujie…"
+            type: text
+          - name: tortilla_soup__text11
+            label: "Sirve el caldo"
+            type: string
+          - name: tortilla_soup__text12
+            label: "Vierte el caldo caliente sobre el plato justo ante…"
+            type: string
+          - name: tortilla_soup__text13
+            label: "Rendimiento:"
+            type: string
+          - name: tortilla_soup__text14
+            label: "4 oz rinden 1 galón de caldo. Una libra rinde 4 ga…"
+            type: text
+          - name: tortilla_soup__text15
+            label: "Solicita muestras"
+            type: string
+          - name: tortilla_soup__text16
+            label: "Receta completa"
+            type: string
+      - name: "De un vistazo"
+        label: "De Un Vistazo"
+        type: object
+        fields:
+          - name: de_un_vistazo__text1
+            label: "1990"
+            type: string
+          - name: de_un_vistazo__text2
+            label: "El año en que Víctor empezó a surtir cocinas de re…"
+            type: text
+          - name: de_un_vistazo__text3
+            label: "1"
+            type: string
+          - name: de_un_vistazo__text4
+            label: "cda."
+            type: string
+          - name: de_un_vistazo__text5
+            label: "por taza de agua caliente. Al hervir, el caldo est…"
+            type: string
+          - name: de_un_vistazo__text6
+            label: "14"
+            type: string
+          - name: de_un_vistazo__text7
+            label: "estados de EE. UU. con restaurantes que lo sirven."
+            type: string
+      - name: "family-story"
+        label: "Family Story"
+        type: object
+        fields:
+          - name: family_story__text1
+            label: "02 — La familia"
+            type: string
+          - name: family_story__text2
+            label: "Conoce a la familia"
+            type: string
+          - name: family_story__text3
+            label: "detrás de Chololoy®."
+            type: string
+          - name: family_story__text4
+            label: "1"
+            type: string
+          - name: family_story__text5
+            label: "/ 3"
+            type: string
+          - name: family_story__text6
+            label: "Desliza para seguir la historia."
+            type: string
+          - name: family_story__img7
+            label: "Foto: ../assets/logo-chef-640.webp"
+            type: image
+          - name: family_story__text8
+            label: "Sazonador Original Chololoy®"
+            type: string
+          - name: family_story__text9
+            label: "01"
+            type: string
+          - name: family_story__text10
+            label: "De Mamá Mecho"
+            type: string
+          - name: family_story__text11
+            label: "Una receta familiar, escrita a mano."
+            type: string
+          - name: family_story__text12
+            label: "Nuestra bisabuela Nemesia García, “Mamá Mecho”, or…"
+            type: text
+          - name: family_story__img13
+            label: "Foto: ../assets/victor-550.webp"
+            type: image
+          - name: family_story__text14
+            label: "Víctor Hitchcock Medina"
+            type: string
+          - name: family_story__text15
+            label: "02"
+            type: string
+          - name: family_story__text16
+            label: "1990 · Seattle"
+            type: string
+          - name: family_story__text17
+            label: "Víctor conquistó a los restaurantes."
+            type: string
+          - name: family_story__text18
+            label: "Víctor Hitchcock Medina convirtió la sopa de Mamá …"
+            type: text
+          - name: family_story__img19
+            label: "Foto: ../assets/patrick-kristina-fair-1200.webp"
+            type: image
+          - name: family_story__text20
+            label: "Patrick Hitchcock con su hermana Kristina en una f…"
+            type: string
+          - name: family_story__text21
+            label: "03"
+            type: string
+          - name: family_story__text22
+            label: "La familia hoy"
+            type: string
+          - name: family_story__text23
+            label: "Patrick y Kristina."
+            type: string
+          - name: family_story__text24
+            label: "Desde el fallecimiento de Víctor, sus hermanos, Pa…"
+            type: text
+          - name: family_story__text25
+            label: "Regresa cuando quieras, o lee la historia completa…"
+            type: string
+          - name: family_story__text26
+            label: "Lee la historia completa"
+            type: string
+          - name: family_story__img27
+            label: "Foto: ../assets/spoon-455.webp"
+            type: image
+      - name: "recipe-videos"
+        label: "Recipe Videos"
+        type: object
+        fields:
+          - name: recipe_videos__text1
+            label: "03 — Mira y cocina"
+            type: string
+          - name: recipe_videos__text2
+            label: "Más allá de la sopa:"
+            type: string
+          - name: recipe_videos__text3
+            label: "recetas nuevas en video."
+            type: string
+          - name: recipe_videos__text4
+            label: "Videos cortos de recetas de la cocina familiar, en…"
+            type: text
+          - name: recipe_videos__text5
+            label: "01"
+            type: string
+          - name: recipe_videos__text6
+            label: "/ 10"
+            type: string
+          - name: recipe_videos__text7
+            label: "Audio del video:"
+            type: string
+          - name: recipe_videos__text8
+            label: "English"
+            type: string
+          - name: recipe_videos__text9
+            label: "Español"
+            type: string
+          - name: recipe_videos__video10
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-bbq-ribs-e…"
+            type: string
+          - name: recipe_videos__text11
+            label: "BBQ Ribs Express"
+            type: string
+          - name: recipe_videos__text12
+            label: "2 tbsp Chololoy® · 50 min"
+            type: string
+          - name: recipe_videos__img13
+            label: "Foto: ../videos/chololoy-bbq-ribs-en-poster.webp"
+            type: image
+          - name: recipe_videos__video14
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-bbq-ribs-e…"
+            type: string
+          - name: recipe_videos__text15
+            label: "01"
+            type: string
+          - name: recipe_videos__text16
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text17
+            label: "1:16"
+            type: string
+          - name: recipe_videos__text18
+            label: "2 cdas. de Chololoy® · 50 min"
+            type: string
+          - name: recipe_videos__text19
+            label: "Costillas BBQ Express"
+            type: string
+          - name: recipe_videos__text20
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__video21
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-homestyle-…"
+            type: string
+          - name: recipe_videos__text22
+            label: "Homestyle Burger"
+            type: string
+          - name: recipe_videos__text23
+            label: "2 tbsp Chololoy® · 20 min"
+            type: string
+          - name: recipe_videos__img24
+            label: "Foto: ../videos/chololoy-homestyle-burger-en-poster.webp"
+            type: image
+          - name: recipe_videos__video25
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-homestyle-…"
+            type: string
+          - name: recipe_videos__text26
+            label: "02"
+            type: string
+          - name: recipe_videos__text27
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text28
+            label: "1:32"
+            type: string
+          - name: recipe_videos__text29
+            label: "2 cdas. de Chololoy® · 20 min"
+            type: string
+          - name: recipe_videos__text30
+            label: "Hamburguesa Casera"
+            type: string
+          - name: recipe_videos__text31
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__video32
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-shakshuka-…"
+            type: string
+          - name: recipe_videos__text33
+            label: "Shakshuka"
+            type: string
+          - name: recipe_videos__text34
+            label: "1 tbsp Chololoy® · 25 min"
+            type: string
+          - name: recipe_videos__img35
+            label: "Foto: ../videos/chololoy-shakshuka-en-poster.webp"
+            type: image
+          - name: recipe_videos__video36
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-shakshuka-…"
+            type: string
+          - name: recipe_videos__text37
+            label: "03"
+            type: string
+          - name: recipe_videos__text38
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text39
+            label: "1:10"
+            type: string
+          - name: recipe_videos__text40
+            label: "1 cda. de Chololoy® · 25 min"
+            type: string
+          - name: recipe_videos__text41
+            label: "Shakshuka"
+            type: string
+          - name: recipe_videos__text42
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__video43
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-meatballs-…"
+            type: string
+          - name: recipe_videos__text44
+            label: "Meatballs in Tomato Sauce"
+            type: string
+          - name: recipe_videos__text45
+            label: "1.5 tbsp Chololoy® · 35 min"
+            type: string
+          - name: recipe_videos__img46
+            label: "Foto: ../videos/chololoy-meatballs-marinara-en-poster.we…"
+            type: image
+          - name: recipe_videos__video47
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-meatballs-…"
+            type: string
+          - name: recipe_videos__text48
+            label: "04"
+            type: string
+          - name: recipe_videos__text49
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text50
+            label: "1:51"
+            type: string
+          - name: recipe_videos__text51
+            label: "1.5 cdas. de Chololoy® · 35 min"
+            type: string
+          - name: recipe_videos__text52
+            label: "Albóndigas en Salsa de Tomate"
+            type: string
+          - name: recipe_videos__text53
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__video54
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-chili-con-…"
+            type: string
+          - name: recipe_videos__text55
+            label: "Chili con Carne"
+            type: string
+          - name: recipe_videos__text56
+            label: "2 tbsp Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__img57
+            label: "Foto: ../videos/chololoy-chili-con-carne-en-poster.webp"
+            type: image
+          - name: recipe_videos__video58
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-chili-con-…"
+            type: string
+          - name: recipe_videos__text59
+            label: "05"
+            type: string
+          - name: recipe_videos__text60
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text61
+            label: "1:54"
+            type: string
+          - name: recipe_videos__text62
+            label: "2 cdas. de Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__text63
+            label: "Chili con Carne"
+            type: string
+          - name: recipe_videos__text64
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__video65
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-noodle-sou…"
+            type: string
+          - name: recipe_videos__text66
+            label: "Asian-Style Noodle Soup with Shrimp"
+            type: string
+          - name: recipe_videos__text67
+            label: "1 tbsp Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__img68
+            label: "Foto: ../videos/chololoy-noodle-soup-shrimp-en-poster.we…"
+            type: image
+          - name: recipe_videos__video69
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-noodle-sou…"
+            type: string
+          - name: recipe_videos__text70
+            label: "06"
+            type: string
+          - name: recipe_videos__text71
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text72
+            label: "1:24"
+            type: string
+          - name: recipe_videos__text73
+            label: "1 cda. de Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__text74
+            label: "Sopa Oriental con Noodles y Camarón"
+            type: string
+          - name: recipe_videos__text75
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__video76
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-spanish-ga…"
+            type: string
+          - name: recipe_videos__text77
+            label: "Spanish Garlic Chicken"
+            type: string
+          - name: recipe_videos__text78
+            label: "1 tbsp Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__img79
+            label: "Foto: ../videos/chololoy-spanish-garlic-chicken-en-poste…"
+            type: image
+          - name: recipe_videos__video80
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-spanish-ga…"
+            type: string
+          - name: recipe_videos__text81
+            label: "07"
+            type: string
+          - name: recipe_videos__text82
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text83
+            label: "1:14"
+            type: string
+          - name: recipe_videos__text84
+            label: "1 cda. de Chololoy® · 30 min"
+            type: string
+          - name: recipe_videos__text85
+            label: "Pollo al Ajillo"
+            type: string
+          - name: recipe_videos__text86
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__video87
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-salmon-sal…"
+            type: string
+          - name: recipe_videos__text88
+            label: "Salmon Salad"
+            type: string
+          - name: recipe_videos__text89
+            label: "1 tbsp Chololoy® · 23 min"
+            type: string
+          - name: recipe_videos__img90
+            label: "Foto: ../videos/chololoy-salmon-salad-en-poster.webp"
+            type: image
+          - name: recipe_videos__video91
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-salmon-sal…"
+            type: string
+          - name: recipe_videos__text92
+            label: "08"
+            type: string
+          - name: recipe_videos__text93
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text94
+            label: "1:16"
+            type: string
+          - name: recipe_videos__text95
+            label: "1 cda. de Chololoy® · 23 min"
+            type: string
+          - name: recipe_videos__text96
+            label: "Ensalada con Salmón"
+            type: string
+          - name: recipe_videos__text97
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__video98
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-spicy-pota…"
+            type: string
+          - name: recipe_videos__text99
+            label: "Spicy Potatoes"
+            type: string
+          - name: recipe_videos__text100
+            label: "2 tbsp Chololoy® · 25 min"
+            type: string
+          - name: recipe_videos__img101
+            label: "Foto: ../videos/chololoy-spicy-potatoes-en-poster.webp"
+            type: image
+          - name: recipe_videos__video102
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-spicy-pota…"
+            type: string
+          - name: recipe_videos__text103
+            label: "09"
+            type: string
+          - name: recipe_videos__text104
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text105
+            label: "0:59"
+            type: string
+          - name: recipe_videos__text106
+            label: "2 cdas. de Chololoy® · 25 min"
+            type: string
+          - name: recipe_videos__text107
+            label: "Papas Bravas"
+            type: string
+          - name: recipe_videos__text108
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__video109
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-chickpea-h…"
+            type: string
+          - name: recipe_videos__text110
+            label: "Chickpea Hummus"
+            type: string
+          - name: recipe_videos__text111
+            label: "2 tbsp Chololoy® · 10 min"
+            type: string
+          - name: recipe_videos__img112
+            label: "Foto: ../videos/chololoy-chickpea-hummus-en-poster.webp"
+            type: image
+          - name: recipe_videos__video113
+            label: "Video URL: https://chololoyinc.com/videos/chololoy-chickpea-h…"
+            type: string
+          - name: recipe_videos__text114
+            label: "10"
+            type: string
+          - name: recipe_videos__text115
+            label: "Duración"
+            type: string
+          - name: recipe_videos__text116
+            label: "0:46"
+            type: string
+          - name: recipe_videos__text117
+            label: "2 cdas. de Chololoy® · 10 min"
+            type: string
+          - name: recipe_videos__text118
+            label: "Hummus de Garbanzo"
+            type: string
+          - name: recipe_videos__text119
+            label: "Ver la receta"
+            type: string
+          - name: recipe_videos__text120
+            label: "Desliza para ver más"
+            type: string
+          - name: recipe_videos__text121
+            label: "Audio del video:"
+            type: string
+          - name: recipe_videos__text122
+            label: "English"
+            type: string
+          - name: recipe_videos__text123
+            label: "Español"
+            type: string
+          - name: recipe_videos__text124
+            label: "Ver la receta"
+            type: string
+      - name: "featured-recipes"
+        label: "Featured Recipes"
+        type: object
+        fields:
+          - name: featured_recipes__text1
+            label: "04 — Recetas destacadas"
+            type: string
+          - name: featured_recipes__text2
+            label: "Empieza aquí."
+            type: string
+          - name: featured_recipes__text3
+            label: "Luego hazlas a tu manera."
+            type: string
+          - name: featured_recipes__text4
+            label: "Cada tarjeta indica exactamente cuánto Chololoy® u…"
+            type: string
+          - name: featured_recipes__text5
+            label: "Todas las recetas"
+            type: string
+          - name: featured_recipes__img6
+            label: "Foto: ../cdn/shop/articles/spicy-potatoes-hero__w1400.we…"
+            type: image
+          - name: featured_recipes__text7
+            label: "Papas Bravas con Chololoy®"
+            type: string
+          - name: featured_recipes__text8
+            label: "Papas Bravas con Chololoy®"
+            type: string
+          - name: featured_recipes__img9
+            label: "Foto: ../cdn/shop/articles/spanish-garlic-chicken-hero__…"
+            type: image
+          - name: featured_recipes__text10
+            label: "Pollo al Ajillo con Chololoy®"
+            type: string
+          - name: featured_recipes__text11
+            label: "Pollo al Ajillo con Chololoy®"
+            type: string
+          - name: featured_recipes__img12
+            label: "Foto: ../cdn/shop/articles/shakshuka-hero__w1400.webp"
+            type: image
+          - name: featured_recipes__text13
+            label: "Shakshuka con Chololoy®"
+            type: string
+          - name: featured_recipes__text14
+            label: "Shakshuka con Chololoy®"
+            type: string
+      - name: "great-on"
+        label: "Great On"
+        type: object
+        fields:
+          - name: great_on__text1
+            label: "05 — Dónde funciona"
+            type: string
+          - name: great_on__text2
+            label: "Una cucharada."
+            type: string
+          - name: great_on__text3
+            label: "Todas las estaciones de la línea."
+            type: string
+          - name: great_on__text4
+            label: "Pasa el cursor o toca un platillo para ver exactam…"
+            type: text
+          - name: great_on__text5
+            label: "Todo"
+            type: string
+          - name: great_on__text6
+            label: "Mariscos"
+            type: string
+          - name: great_on__text7
+            label: "Carnes"
+            type: string
+          - name: great_on__text8
+            label: "Dips"
+            type: string
+          - name: great_on__text9
+            label: "Sopas"
+            type: string
+          - name: great_on__text10
+            label: "Arroz"
+            type: string
+          - name: great_on__text11
+            label: "Pasta"
+            type: string
+          - name: great_on__img12
+            label: "Foto: ../assets/pair-michelada-shrimp-628.webp"
+            type: image
+          - name: great_on__text13
+            label: "Camarones michelada"
+            type: string
+          - name: great_on__text14
+            label: "Mariscos"
+            type: string
+          - name: great_on__text15
+            label: "Camarones michelada"
+            type: string
+          - name: great_on__text16
+            label: "2 cdas."
+            type: string
+          - name: great_on__text17
+            label: "Disuelto en cerveza tibia y vertido sobre los cama…"
+            type: string
+          - name: great_on__text18
+            label: "Ver receta →"
+            type: string
+          - name: great_on__text19
+            label: "2 cdas. Disuelto en cerveza tibia y vertido sobre …"
+            type: string
+          - name: great_on__img20
+            label: "Foto: ../assets/pair-meatballs-720.webp"
+            type: image
+          - name: great_on__text21
+            label: "Albóndigas en salsa de tomate"
+            type: string
+          - name: great_on__text22
+            label: "Carnes"
+            type: string
+          - name: great_on__text23
+            label: "Albóndigas en salsa de tomate"
+            type: string
+          - name: great_on__text24
+            label: "1 cda."
+            type: string
+          - name: great_on__text25
+            label: "Mezclado con la carne de las albóndigas."
+            type: string
+          - name: great_on__text26
+            label: "Ver receta →"
+            type: string
+          - name: great_on__text27
+            label: "1 cda. Mezclado con la carne de las albóndigas."
+            type: string
+          - name: great_on__img28
+            label: "Foto: ../assets/pair-salmon-salad-540.webp"
+            type: image
+          - name: great_on__text29
+            label: "Ensalada con salmón"
+            type: string
+          - name: great_on__text30
+            label: "Mariscos"
+            type: string
+          - name: great_on__text31
+            label: "Ensalada con salmón"
+            type: string
+          - name: great_on__text32
+            label: "1 cda."
+            type: string
+          - name: great_on__text33
+            label: "Mezclado con mantequilla y untado al pescado."
+            type: string
+          - name: great_on__text34
+            label: "Ver receta →"
+            type: string
+          - name: great_on__text35
+            label: "1 cda. Mezclado con mantequilla y untado al pescad…"
+            type: string
+          - name: great_on__img36
+            label: "Foto: ../assets/pair-chololoy-dip-535.webp"
+            type: image
+          - name: great_on__text37
+            label: "Dip Chololoy®"
+            type: string
+          - name: great_on__text38
+            label: "Dips"
+            type: string
+          - name: great_on__text39
+            label: "Dip Chololoy®"
+            type: string
+          - name: great_on__text40
+            label: "1½ cdas."
+            type: string
+          - name: great_on__text41
+            label: "Solo se revuelve."
+            type: string
+          - name: great_on__text42
+            label: "Ver receta →"
+            type: string
+          - name: great_on__text43
+            label: "1½ cdas. Solo se revuelve."
+            type: string
+          - name: great_on__img44
+            label: "Foto: ../assets/pair-black-bean-soup-599.webp"
+            type: image
+          - name: great_on__text45
+            label: "Sopa de frijoles negros"
+            type: string
+          - name: great_on__text46
+            label: "Sopas"
+            type: string
+          - name: great_on__text47
+            label: "Sopa de frijoles negros"
+            type: string
+          - name: great_on__text48
+            label: "1 cda."
+            type: string
+          - name: great_on__text49
+            label: "Licuado con los frijoles y el agua."
+            type: string
+          - name: great_on__text50
+            label: "Ver receta →"
+            type: string
+          - name: great_on__text51
+            label: "1 cda. Licuado con los frijoles y el agua."
+            type: string
+          - name: great_on__img52
+            label: "Foto: ../assets/pair-pork-pan-415.webp"
+            type: image
+          - name: great_on__text53
+            label: "Cerdo a la crema"
+            type: string
+          - name: great_on__text54
+            label: "Carnes"
+            type: string
+          - name: great_on__text55
+            label: "Cerdo a la crema"
+            type: string
+          - name: great_on__text56
+            label: "2 cditas."
+            type: string
+          - name: great_on__text57
+            label: "Disuelto en crema ácida tibia."
+            type: string
+          - name: great_on__text58
+            label: "Ver receta →"
+            type: string
+          - name: great_on__text59
+            label: "2 cditas. Disuelto en crema ácida tibia."
+            type: string
+          - name: great_on__img60
+            label: "Foto: ../assets/pair-breaded-shrimp-rice-509.webp"
+            type: image
+          - name: great_on__text61
+            label: "Arroz y camarones empanizados"
+            type: string
+          - name: great_on__text62
+            label: "Arroz"
+            type: string
+          - name: great_on__text63
+            label: "Arroz y camarones empanizados"
+            type: string
+          - name: great_on__text64
+            label: "2 cdas."
+            type: string
+          - name: great_on__text65
+            label: "En el arroz y también en los camarones."
+            type: string
+          - name: great_on__text66
+            label: "Ver receta →"
+            type: string
+          - name: great_on__text67
+            label: "2 cdas. En el arroz y también en los camarones."
+            type: string
+          - name: great_on__img68
+            label: "Foto: ../assets/pair-mac-cheese-404.webp"
+            type: image
+          - name: great_on__text69
+            label: "Macarrón con queso"
+            type: string
+          - name: great_on__text70
+            label: "Pasta"
+            type: string
+          - name: great_on__text71
+            label: "Macarrón con queso"
+            type: string
+          - name: great_on__text72
+            label: "2 cdas."
+            type: string
+          - name: great_on__text73
+            label: "Batido en la salsa de queso."
+            type: string
+          - name: great_on__text74
+            label: "Ver receta →"
+            type: string
+          - name: great_on__text75
+            label: "2 cdas. Batido en la salsa de queso."
+            type: string
+      - name: "why"
+        label: "Why"
+        type: object
+        fields:
+          - name: why__text1
+            label: "06 — Por qué los chefs vuelven a pedir"
+            type: string
+          - name: why__text2
+            label: "“Cuando la gente lo prueba, vuelve a pedirlo.”"
+            type: string
+          - name: why__text3
+            label: "La familia Hitchcock, Chololoy®"
+            type: string
+          - name: why__text4
+            label: "01"
+            type: string
+          - name: why__text5
+            label: "Fácil de preparar"
+            type: string
+          - name: why__text6
+            label: "Una cucharada en una taza de agua caliente. Cuando…"
+            type: text
+          - name: why__text7
+            label: "02"
+            type: string
+          - name: why__text8
+            label: "Rinde mucho. Cero desperdicio."
+            type: string
+          - name: why__text9
+            label: "Unas 52 cucharadas por libra, así que usas solo lo…"
+            type: string
+          - name: why__text10
+            label: "03"
+            type: string
+          - name: why__text11
+            label: "Sabor casero, 100% natural"
+            type: string
+          - name: why__text12
+            label: "La receta de la bisabuela de Víctor. Ingredientes …"
+            type: text
+      - name: "story"
+        label: "Story"
+        type: object
+        fields:
+          - name: story__img1
+            label: "Foto: ../assets/victor-550.webp"
+            type: image
+          - name: story__text2
+            label: "Víctor Hitchcock Medina"
+            type: string
+          - name: story__text3
+            label: "Víctor Hitchcock Medina"
+            type: string
+          - name: story__img4
+            label: "Foto: ../assets/patrick-kristina-fair-1200.webp"
+            type: image
+          - name: story__text5
+            label: "Patrick y Kristina hoy"
+            type: string
+          - name: story__text6
+            label: "Patrick y Kristina hoy"
+            type: string
+          - name: story__text7
+            label: "07 — La historia"
+            type: string
+          - name: story__text8
+            label: "Una receta del recetario"
+            type: string
+          - name: story__text9
+            label: "de Mamá Mecho."
+            type: string
+          - name: story__text10
+            label: "Nemesia García, “Mamá Mecho”, bisabuela de Víctor …"
+            type: text
+          - name: story__text11
+            label: "Tlaxcala"
+            type: string
+          - name: story__text12
+            label: "Mamá Mecho escribe su sopa de tortilla"
+            type: string
+          - name: story__text13
+            label: "1990"
+            type: string
+          - name: story__text14
+            label: "Víctor la lleva a las cocinas de los restaurantes …"
+            type: string
+          - name: story__text15
+            label: "Hoy sus hermanos, Patrick y Kristina, continúan su…"
+            type: string
+          - name: story__text16
+            label: "Lee la historia completa"
+            type: string
+      - name: "how-it-began"
+        label: "How It Began"
+        type: object
+        fields:
+          - name: how_it_began__img1
+            label: "Foto: ../assets/victor-story-poster-1100.webp"
+            type: image
+          - name: how_it_began__text2
+            label: "Víctor en la cocina,"
+            type: string
+          - name: how_it_began__img3
+            label: "Foto: ../assets/victor-story-poster-1100.webp"
+            type: image
+          - name: how_it_began__video4
+            label: "Video URL: https://chololoyinc.com/videos/victor-story-640.mp…"
+            type: string
+          - name: how_it_began__text5
+            label: "08 — Cómo empezó la historia"
+            type: string
+          - name: how_it_began__text6
+            label: "Víctor en la cocina,"
+            type: string
+          - name: how_it_began__text7
+            label: "preparando la sopa."
+            type: string
+          - name: how_it_began__text8
+            label: "Mira a Víctor preparar la sopa de tortilla con la …"
+            type: text
+      - name: "wholesale"
+        label: "Wholesale"
+        type: object
+        fields:
+          - name: wholesale__text1
+            label: "09 — Para chefs y compradores"
+            type: string
+          - name: wholesale__text2
+            label: "Hecho para"
+            type: string
+          - name: wholesale__text3
+            label: "cocinas profesionales."
+            type: string
+          - name: wholesale__text4
+            label: "Se vende por caja, directo del productor. Mezclas …"
+            type: text
+          - name: wholesale__text5
+            label: "12 × 1 lb"
+            type: string
+          - name: wholesale__text6
+            label: "bolsas por caja · aluminio sellado al calor"
+            type: string
+          - name: wholesale__text7
+            label: "5 cajas"
+            type: string
+          - name: wholesale__text8
+            label: "de pedido mínimo (60 lb)"
+            type: string
+          - name: wholesale__text9
+            label: "≈52"
+            type: string
+          - name: wholesale__text10
+            label: "cucharadas por libra"
+            type: string
+          - name: wholesale__text11
+            label: "1 cda. : 1 taza"
+            type: string
+          - name: wholesale__text12
+            label: "1 cda. por taza de agua para sopa de tortilla"
+            type: string
+          - name: wholesale__text13
+            label: "1 año"
+            type: string
+          - name: wholesale__text14
+            label: "de vida de anaquel · 100% natural, sin conservador…"
+            type: string
+          - name: wholesale__text15
+            label: "4–6"
+            type: string
+          - name: wholesale__text16
+            label: "semanas de entrega"
+            type: string
+          - name: wholesale__text17
+            label: "Solicita muestras"
+            type: string
+          - name: wholesale__text18
+            label: "Habla con ventas"
+            type: string
+      - name: "samples"
+        label: "Samples"
+        type: object
+        fields:
+          - name: samples__img1
+            label: "Foto: ../assets/logo-chef-640.webp"
+            type: image
+          - name: samples__text2
+            label: "Para chefs y compradores"
+            type: string
+          - name: samples__text3
+            label: "Pruébalo en"
+            type: string
+          - name: samples__text4
+            label: "tu cocina primero."
+            type: string
+          - name: samples__text5
+            label: "Muestras para restaurantes, distribuidores y tiend…"
+            type: text
+          - name: samples__text6
+            label: "Cuéntale a Kristina de tu cocina"
+            type: string
+          - name: samples__text7
+            label: "Restaurante, distribuidor o tienda, y dónde se enc…"
+            type: string
+          - name: samples__text8
+            label: "Kristina te responde personalmente"
+            type: string
+          - name: samples__text9
+            label: "Ella coordina tus muestras y el envío. Atendemos e…"
+            type: string
+          - name: samples__text10
+            label: "Empieza a cocinar"
+            type: string
+          - name: samples__text11
+            label: "Empieza con la Sopa de Tortilla de Víctor: 1 cda. …"
+            type: text
+          - name: samples__text12
+            label: "Solicita muestras"
+            type: string
+          - name: samples__text13
+            label: "Recetas nuevas de vez en cuando."
+            type: string
+          - name: samples__text14
+            label: "Recetas de la cocina familiar y noticias de Cholol…"
+            type: string
+          - name: samples__text15
+            label: "Tu correo"
+            type: string
+          - name: samples__text16
+            label: "Tu correo"
+            type: string
+          - name: samples__text17
+            label: "Suscribirme"
+            type: string
+          - name: samples__text18
+            label: "Puedes cancelar cuando quieras."
+            type: string
+          - name: samples__text19
+            label: "Al suscribirte, aceptas nuestra"
+            type: string
+          - name: samples__text20
+            label: "Política de privacidad"
+            type: string
+      - name: "faq"
+        label: "Faq"
+        type: object
+        fields:
+          - name: faq__text1
+            label: "Preguntas frecuentes"
+            type: string
+          - name: faq__text2
+            label: "Antes de pedir"
+            type: string
+          - name: faq__text3
+            label: "Respuestas rápidas para chefs y compradores."
+            type: string
+          - name: faq__text4
+            label: "Pregúntale a Kristina"
+            type: string
+          - name: faq__text5
+            label: "01"
+            type: string
+          - name: faq__text6
+            label: "¿Qué incluye una caja?"
+            type: string
+          - name: faq__text7
+            label: "Cada caja contiene doce bolsas de aluminio de 1 lb…"
+            type: text
+          - name: faq__text8
+            label: "02"
+            type: string
+          - name: faq__text9
+            label: "¿Cuánto tarda la entrega de mayoreo?"
+            type: string
+          - name: faq__text10
+            label: "Los pedidos de mayoreo tardan de 4 a 6 semanas en …"
+            type: string
+          - name: faq__text11
+            label: "03"
+            type: string
+          - name: faq__text12
+            label: "¿Pueden hacer una mezcla especial?"
+            type: string
+          - name: faq__text13
+            label: "Para clientes grandes, sí: desde pequeños ajustes,…"
+            type: text
+          - name: faq__text14
+            label: "04"
+            type: string
+          - name: faq__text15
+            label: "¿Cuál es su vida de anaquel?"
+            type: string
+          - name: faq__text16
+            label: "Dura un año. Es 100% natural y sin conservadores."
+            type: string
+          - name: faq__text17
+            label: "05"
+            type: string
+          - name: faq__text18
+            label: "¿Puedo comprarlo para usarlo en casa?"
+            type: string
+          - name: faq__text19
+            label: "Hay presentaciones más pequeñas para el hogar, baj…"
+            type: text
+      - name: "section"
+        label: "Section"
+        type: object
+        fields:
+          - name: section__text1
+            label: "Chololoy®"
+            type: string
+          - name: section__text2
+            label: "Chololoy®"
+            type: string
+          - name: section__text3
+            label: "Chololoy®"
+            type: string
+          - name: section__text4
+            label: "Compras y preguntas"
+            type: string
+          - name: section__text5
+            label: "Pruébalo"
+            type: string
+          - name: section__text6
+            label: "en tu cocina."
+            type: string
+          - name: section__text7
+            label: "Muestras, pedidos o una mezcla especial: Kristina …"
+            type: text
+          - name: section__link8
+            label: "Link: mailto:kristina@chololoy.net"
+            type: string
+          - name: section__text9
+            label: "kristina@chololoy.net"
+            type: string
+          - name: section__link10
+            label: "Link: tel:5037037720"
+            type: string
+          - name: section__text11
+            label: "(503) 703-7720"
+            type: string
+          - name: section__text12
+            label: "Solicita muestras"
+            type: string
+      - name: "footer"
+        label: "Footer"
+        type: object
+        fields:
+          - name: footer__img1
+            label: "Foto: ../assets/logo-banner-700.webp"
+            type: image
+          - name: footer__text2
+            label: "Chololoy®"
+            type: string
+          - name: footer__text3
+            label: "Una receta familiar de Tlaxcala, en cocinas de res…"
+            type: text
+          - name: footer__text4
+            label: "Explora"
+            type: string
+          - name: footer__text5
+            label: "Recetas"
+            type: string
+          - name: footer__text6
+            label: "Política de privacidad"
+            type: string
+          - name: footer__text7
+            label: "Mayoreo"
+            type: string
+          - name: footer__text8
+            label: "12 bolsas de 1 lb por caja"
+            type: string
+          - name: footer__text9
+            label: "Pedido mínimo: 5 cajas"
+            type: string
+          - name: footer__text10
+            label: "Entrega en 4–6 semanas"
+            type: string
+          - name: footer__text11
+            label: "Compras y preguntas"
+            type: string
+          - name: footer__text12
+            label: "Kristina Knutson"
+            type: string
+          - name: footer__text13
+            label: "kristina@chololoy.net"
+            type: string
+          - name: footer__text14
+            label: "(503) 703-7720"
+            type: string
+          - name: footer__text15
+            label: "· Atendemos en español e inglés"
+            type: string
+          - name: footer__text16
+            label: "Envía un mensaje →"
+            type: string
+          - name: footer__text17
+            label: "Recetas por correo"
+            type: string
+          - name: footer__text18
+            label: "Recetas nuevas y noticias de la familia de vez en …"
+            type: string
+          - name: footer__text19
+            label: "Tu correo"
+            type: string
+          - name: footer__text20
+            label: "Tu correo"
+            type: string
+          - name: footer__text21
+            label: "Al suscribirte, aceptas nuestra"
+            type: string
+          - name: footer__text22
+            label: "Política de privacidad"
+            type: string
+          - name: footer__text23
+            label: ". Puedes cancelar cuando quieras."
+            type: string
+          - name: footer__text24
+            label: "Chololoy®"
+            type: string
+          - name: footer__text25
+            label: "© 2026 Chololoy, Inc. · Empresa familiar"
+            type: string
+          - name: footer__text26
+            label: "Chololoy® se elabora solo con ingredientes natural…"
+            type: text
+          - name: footer__text27
+            label: "Política de privacidad"
+            type: string
+          - name: footer__text28
+            label: "Volver arriba ↑"
+            type: string
+          - name: footer__text29
+            label: "Música: “Carefree”, “Cool Vibes”, “Hep Cats”, “Sun…"
+            type: text
+          - name: footer__link30
+            label: "Link: https://incompetech.com"
+            type: string
+          - name: footer__text31
+            label: "incompetech.com"
+            type: string
+          - name: footer__text32
+            label: "), licencia"
+            type: string
+          - name: footer__link33
+            label: "Link: https://creativecommons.org/licenses/by/4.0/"
+            type: string
+          - name: footer__text34
+            label: "CC BY 4.0"
+            type: string
+          - name: footer__text35
+            label: "Solicita muestras"
+            type: string
+          - name: footer__link36
+            label: "Link: tel:+15037037720"
+            type: string
+          - name: footer__text37
+            label: "Llamar"
+            type: string
