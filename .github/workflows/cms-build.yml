@@ -1,0 +1,23 @@
+name: CMS build
+# Cuando Kristina/Patrick guardan en Pages CMS (cambia _cms/content), regenera el HTML y lo sube.
+on:
+  push:
+    branches: [main]
+    paths: ['_cms/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { lfs: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python3 _cms/build.py
+      - run: |
+          git config user.name "chololoy-cms-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html es/index.html
+          git diff --cached --quiet || (git commit -m "CMS: regenerar páginas desde _cms/content" && git push)
